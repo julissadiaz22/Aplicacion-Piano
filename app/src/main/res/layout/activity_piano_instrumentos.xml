@@ -1,11 +1,10 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="horizontal"
+    android:background="@drawable/fondoap"
     android:gravity="bottom|center"
+    android:orientation="horizontal"
     android:padding="16dp">
 
     <!-- Imagen bateria -->
@@ -14,9 +13,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenBateria"
-        android:src="@drawable/nbateria"
         android:onClick="sonidoBateria"
-        />
+        android:src="@drawable/nbateria" />
 
     <!-- Imagen clarinete -->
     <ImageButton
@@ -24,9 +22,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenClarinete"
-        android:src="@drawable/nclarinete"
         android:onClick="sonidoClarinete"
-        />
+        android:src="@drawable/nclarinete" />
 
     <!-- Imagen flauta -->
     <ImageButton
@@ -34,9 +31,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenFlauta"
-        android:src="@drawable/nflauta"
         android:onClick="sonidoFlauta"
-        />
+        android:src="@drawable/nflauta" />
 
     <!-- Imagen guitarra -->
     <ImageButton
@@ -44,9 +40,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenGuitarra"
-        android:src="@drawable/nguitarra"
         android:onClick="sonidoGuitarra"
-        />
+        android:src="@drawable/nguitarra" />
 
     <!-- Imagen Saxofon -->
     <ImageButton
@@ -54,9 +49,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenSaxofon"
-        android:src="@drawable/nsaxofon"
         android:onClick="sonidoSaxofon"
-        />
+        android:src="@drawable/nsaxofon" />
 
     <!-- Imagen trompeta -->
     <ImageButton
@@ -64,9 +58,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenTrompeta"
-        android:src="@drawable/ntrompeta"
         android:onClick="sonidoTrompeta"
-        />
+        android:src="@drawable/ntrompeta" />
 
     <!-- Imagen violin -->
     <ImageButton
@@ -74,8 +67,7 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionImagenViolin"
-        android:src="@drawable/nviolin"
         android:onClick="sonidoViolin"
-        />
+        android:src="@drawable/nviolin" />
 
 </LinearLayout>

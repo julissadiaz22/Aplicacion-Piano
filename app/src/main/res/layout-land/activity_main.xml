@@ -1,11 +1,10 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="horizontal"
+    android:background="@drawable/fondoap"
     android:gravity="bottom|center"
+    android:orientation="horizontal"
     android:padding="16dp">
 
     <!-- Imagen Do -->
@@ -14,9 +13,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/descripcionNotaDo"
-        android:src="@drawable/don"
         android:onClick="sonidoDo"
-        />
+        android:src="@drawable/don" />
 
     <!-- Imagen Re -->
     <ImageButton
@@ -24,9 +22,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/DescripcionNotaRe"
-        android:src="@drawable/re"
         android:onClick="sonidoRe"
-        />
+        android:src="@drawable/re" />
 
     <!-- Imagen Mi -->
     <ImageButton
@@ -34,9 +31,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/DescripcionNotaMi"
-        android:src="@drawable/mi"
         android:onClick="sonidoMi"
-        />
+        android:src="@drawable/mi" />
 
     <!-- Imagen Fa -->
     <ImageButton
@@ -44,9 +40,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/DescripcionNotaFa"
-        android:src="@drawable/fa"
         android:onClick="sonidoFa"
-        />
+        android:src="@drawable/fa" />
 
     <!-- Imagen Sol -->
     <ImageButton
@@ -54,9 +49,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/DescripcionNotaSol"
-        android:src="@drawable/sol"
         android:onClick="sonidoSol"
-        />
+        android:src="@drawable/sol" />
 
     <!-- Imagen La -->
     <ImageButton
@@ -64,9 +58,8 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/DescripcionNotaLa"
-        android:src="@drawable/la"
         android:onClick="sonidoLa"
-        />
+        android:src="@drawable/la" />
 
     <!-- Imagen Si -->
     <ImageButton
@@ -74,8 +67,7 @@
         android:layout_width="85dp"
         android:layout_height="200dp"
         android:contentDescription="@string/DescripcionNotaSi"
-        android:src="@drawable/si"
         android:onClick="sonidoSi"
-        />
+        android:src="@drawable/si" />
 
 </LinearLayout>
