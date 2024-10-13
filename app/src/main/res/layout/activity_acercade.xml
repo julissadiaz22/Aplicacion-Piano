@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/integrantes"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/fotojulissa"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/julissa" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BEB0D9"
+        android:gravity="center_horizontal"
+        android:text="@string/nombre1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/fotojulissa"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/melissa" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBCCA7"
+        android:gravity="center_horizontal"
+        android:text="@string/nombre2"
+        android:textSize="18sp" /> <!-- Tamaño de letra más grande -->
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/fotojulissa"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/michelle" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BEB0D9"
+        android:gravity="center_horizontal"
+        android:text="@string/nombre3"
+        android:textSize="18sp" /> <!-- Tamaño de letra más grande -->
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/fotojulissa"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moises" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBCCA7"
+        android:gravity="center_horizontal"
+        android:text="@string/nombre4"
+        android:textSize="18sp" />
+
+</LinearLayout>

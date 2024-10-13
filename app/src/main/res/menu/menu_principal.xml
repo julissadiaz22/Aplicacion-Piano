@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camPiano"
+        android:icon="@drawable/icon_piano"
+        android:title="Cambiar Tipo Piano"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/sobreNosotros"
+        android:icon="@drawable/icon_about"
+        android:title="Acerca de nosotros"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/icon_logout"
+        android:title="Salir"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+
+        />
+
+
+
+</menu>

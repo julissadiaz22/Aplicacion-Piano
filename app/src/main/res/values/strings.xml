@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Melody World</string>
+    <string name="fotojulissa">fotoJulissa</string>
+    <string name="fotomelissa">fotoMelissa</string>
+    <string name="fotomichelle">fotoMichelle</string>
+    <string name="fotomoises">fotoMoises</string>
+    <string name="integrantes">INTEGRANTES</string>
+    <string name="nombre1">Julissa Rosibel Díaz Vásquez</string>
+    <string name="nombre2">Melissa Jamileth García Rivas</string>
+    <string name="nombre3">Kathya Michelle Iriondo Magaña</string>
+    <string name="nombre4">Francisco Moisés Alarcón Ávalos</string>
+    <string name="descripcionNotaDo">nota do</string>
+    <string name="DescripcionNotaRe">nota re</string>
+    <string name="DescripcionNotaMi">nota mi</string>
+    <string name="DescripcionNotaFa">nota fa</string>
+    <string name="DescripcionNotaSol">nota sol</string>
+    <string name="DescripcionNotaLa">nota la</string>
+    <string name="DescripcionNotaSi">nota si</string>
+    <string name="descripcionSonidoAve">imagen ave</string>
+    <string name="descripcionSonidoElefante">imagen elefante</string>
+    <string name="descripcionSonidoGrillo">imagen grillo</string>
+    <string name="descripcionSonidoLeon">imagen leon</string>
+    <string name="descripcionSonidoMono">imagen mono</string>
+    <string name="descripcionSonidoRana">imagen rana</string>
+    <string name="descripcionSonidoSerpiente">imagen serpiente</string>
+    <string name="descripcionImagenBateria">imagen bateria</string>
+    <string name="descripcionImagenClarinete">imagen clarinete</string>
+    <string name="descripcionImagenFlauta">imagen flauta</string>
+    <string name="descripcionImagenGuitarra">imagen guitarra</string>
+    <string name="descripcionImagenSaxofon">imagen saxofon</string>
+    <string name="descripcionImagenTrompeta">imagen trompeta</string>
+    <string name="descripcionImagenViolin">imagen violin</string>
+</resources>

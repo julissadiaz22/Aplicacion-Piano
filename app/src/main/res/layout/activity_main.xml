@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen Do -->
+    <ImageView
+        android:id="@+id/img_do"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="nota do"
+        android:src="@drawable/don" />
+
+    <!-- Imagen Re -->
+    <ImageView
+        android:id="@+id/imgRe"
+        android:layout_width="64dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="nota re"
+        android:src="@drawable/re" />
+
+    <!-- Imagen Mi -->
+    <ImageView
+        android:id="@+id/imgMi"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="nota mi"
+        android:src="@drawable/mi" />
+
+    <!-- Imagen Fa -->
+    <ImageView
+        android:id="@+id/imgFa"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="notafa"
+        android:src="@drawable/fa" />
+
+    <!-- Imagen Sol -->
+    <ImageView
+        android:id="@+id/imgSol"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="nota sol"
+        android:src="@drawable/sol" />
+
+    <!-- Imagen La -->
+    <ImageView
+        android:id="@+id/imgLa"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="nota la"
+        android:src="@drawable/la" />
+
+    <!-- Imagen Si -->
+    <ImageView
+        android:id="@+id/imgSi"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="nota si"
+        android:src="@drawable/si" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="horizontal"
+android:gravity="bottom|center"
+android:padding="16dp">
+
+<!-- Imagen ave -->
+<ImageButton
+    android:id="@+id/imgave"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoAve"
+    android:src="@drawable/nave"
+    android:onClick="sonidoAve"
+    />
+
+<!-- Imagen elefante -->
+<ImageButton
+    android:id="@+id/imgelefante"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoElefante"
+    android:src="@drawable/nelefante"
+    android:onClick="sonidoElefante"
+    />
+
+<!-- Imagen grillo -->
+<ImageButton
+    android:id="@+id/imggrillo"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoGrillo"
+    android:src="@drawable/ngrillo"
+    android:onClick="sonidoGrillo"
+    />
+
+<!-- Imagen leon -->
+<ImageButton
+    android:id="@+id/imgleon"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoLeon"
+    android:src="@drawable/nleon"
+    android:onClick="sonidoLeon"
+    />
+
+<!-- Imagen mono -->
+<ImageButton
+    android:id="@+id/imgmono"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoMono"
+    android:src="@drawable/nmono"
+    android:onClick="sonidoMono"
+    />
+
+<!-- Imagen rana-->
+<ImageButton
+    android:id="@+id/imgrana"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoRana"
+    android:src="@drawable/nrana"
+    android:onClick="sonidoRana"
+    />
+
+<!-- Imagen serpiente -->
+<ImageButton
+    android:id="@+id/imgserpiente"
+    android:layout_width="85dp"
+    android:layout_height="200dp"
+    android:contentDescription="@string/descripcionSonidoSerpiente"
+    android:src="@drawable/nculebra"
+    android:onClick="sonidoSerpiente"
+    />
+
+</LinearLayout>

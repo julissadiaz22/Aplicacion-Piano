@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:gravity="bottom|center"
+    android:padding="16dp">
+
+    <!-- Imagen bateria -->
+    <ImageButton
+        android:id="@+id/imgbateria"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenBateria"
+        android:src="@drawable/nbateria"
+        android:onClick="sonidoBateria"
+        />
+
+    <!-- Imagen clarinete -->
+    <ImageButton
+        android:id="@+id/imgclarinete"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenClarinete"
+        android:src="@drawable/nclarinete"
+        android:onClick="sonidoClarinete"
+        />
+
+    <!-- Imagen flauta -->
+    <ImageButton
+        android:id="@+id/imgflauta"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenFlauta"
+        android:src="@drawable/nflauta"
+        android:onClick="sonidoFlauta"
+        />
+
+    <!-- Imagen guitarra -->
+    <ImageButton
+        android:id="@+id/imgguitarra"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenGuitarra"
+        android:src="@drawable/nguitarra"
+        android:onClick="sonidoGuitarra"
+        />
+
+    <!-- Imagen Saxofon -->
+    <ImageButton
+        android:id="@+id/imgsaxofon"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenSaxofon"
+        android:src="@drawable/nsaxofon"
+        android:onClick="sonidoSaxofon"
+        />
+
+    <!-- Imagen trompeta -->
+    <ImageButton
+        android:id="@+id/imgtrompeta"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenTrompeta"
+        android:src="@drawable/ntrompeta"
+        android:onClick="sonidoTrompeta"
+        />
+
+    <!-- Imagen violin -->
+    <ImageButton
+        android:id="@+id/imgviolin"
+        android:layout_width="85dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/descripcionImagenViolin"
+        android:src="@drawable/nviolin"
+        android:onClick="sonidoViolin"
+        />
+
+</LinearLayout>
