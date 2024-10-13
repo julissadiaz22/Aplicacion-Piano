@@ -10,8 +10,8 @@
     <!-- Imagen Do -->
     <ImageButton
         android:id="@+id/img_do"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionNotaDo"
         android:onClick="sonidoDo"
         android:src="@drawable/don" />
@@ -19,8 +19,8 @@
     <!-- Imagen Re -->
     <ImageButton
         android:id="@+id/imgRe"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/DescripcionNotaRe"
         android:onClick="sonidoRe"
         android:src="@drawable/re" />
@@ -28,8 +28,8 @@
     <!-- Imagen Mi -->
     <ImageButton
         android:id="@+id/imgMi"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/DescripcionNotaMi"
         android:onClick="sonidoMi"
         android:src="@drawable/mi" />
@@ -37,8 +37,8 @@
     <!-- Imagen Fa -->
     <ImageButton
         android:id="@+id/imgFa"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/DescripcionNotaFa"
         android:onClick="sonidoFa"
         android:src="@drawable/fa" />
@@ -46,8 +46,8 @@
     <!-- Imagen Sol -->
     <ImageButton
         android:id="@+id/imgSol"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/DescripcionNotaSol"
         android:onClick="sonidoSol"
         android:src="@drawable/sol" />
@@ -55,8 +55,8 @@
     <!-- Imagen La -->
     <ImageButton
         android:id="@+id/imgLa"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/DescripcionNotaLa"
         android:onClick="sonidoLa"
         android:src="@drawable/la" />
@@ -64,8 +64,8 @@
     <!-- Imagen Si -->
     <ImageButton
         android:id="@+id/imgSi"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/DescripcionNotaSi"
         android:onClick="sonidoSi"
         android:src="@drawable/si" />

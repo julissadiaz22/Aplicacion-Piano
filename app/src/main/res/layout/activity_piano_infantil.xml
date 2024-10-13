@@ -10,8 +10,8 @@
     <!-- Imagen ave -->
     <ImageButton
         android:id="@+id/imgave"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoAve"
         android:onClick="sonidoAve"
         android:src="@drawable/nave" />
@@ -19,8 +19,8 @@
     <!-- Imagen elefante -->
     <ImageButton
         android:id="@+id/imgelefante"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoElefante"
         android:onClick="sonidoElefante"
         android:src="@drawable/nelefante" />
@@ -28,8 +28,8 @@
     <!-- Imagen grillo -->
     <ImageButton
         android:id="@+id/imggrillo"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoGrillo"
         android:onClick="sonidoGrillo"
         android:src="@drawable/ngrillo" />
@@ -37,8 +37,8 @@
     <!-- Imagen leon -->
     <ImageButton
         android:id="@+id/imgleon"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoLeon"
         android:onClick="sonidoLeon"
         android:src="@drawable/nleon" />
@@ -46,8 +46,8 @@
     <!-- Imagen mono -->
     <ImageButton
         android:id="@+id/imgmono"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoMono"
         android:onClick="sonidoMono"
         android:src="@drawable/nmono" />
@@ -55,8 +55,8 @@
     <!-- Imagen rana-->
     <ImageButton
         android:id="@+id/imgrana"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoRana"
         android:onClick="sonidoRana"
         android:src="@drawable/nrana" />
@@ -64,8 +64,8 @@
     <!-- Imagen serpiente -->
     <ImageButton
         android:id="@+id/imgserpiente"
-        android:layout_width="85dp"
-        android:layout_height="200dp"
+        android:layout_width="90dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/descripcionSonidoSerpiente"
         android:onClick="sonidoSerpiente"
         android:src="@drawable/nculebra" />
