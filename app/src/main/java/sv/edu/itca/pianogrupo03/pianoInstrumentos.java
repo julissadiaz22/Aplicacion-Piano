@@ -106,6 +106,7 @@ public class pianoInstrumentos extends AppCompatActivity {
         System.out.println("piano seleccionado: "+ tipoPiano);
     }
     public void sonidoBateria(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -135,6 +136,7 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
 
     public void sonidoClarinete(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -163,6 +165,7 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
 
     public void sonidoFlauta(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -191,6 +194,7 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
 
     public void sonidoGuitarra(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -219,6 +223,7 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
 
     public void sonidoSaxofon(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -247,6 +252,7 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
 
     public void sonidoTrompeta(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -276,6 +282,7 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
 
     public void sonidoViolin(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }

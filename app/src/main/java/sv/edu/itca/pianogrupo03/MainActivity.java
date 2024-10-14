@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoDo(View view){
+        detenerSonidos();
          if (currentToast != null){
              currentToast.cancel();
          }
@@ -139,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoRe(View view){
+        detenerSonidos();
 
         if (currentToast != null){
             currentToast.cancel();
@@ -168,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoMi(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -196,6 +199,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoFa(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -225,6 +229,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoSol(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -254,6 +259,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoLa(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -283,6 +289,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sonidoSi(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }

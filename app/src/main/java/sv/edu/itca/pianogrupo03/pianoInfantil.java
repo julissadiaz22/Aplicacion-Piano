@@ -113,6 +113,7 @@ public class pianoInfantil extends AppCompatActivity {
 
 
     public void sonidoAve(View view) {
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -143,6 +144,7 @@ public class pianoInfantil extends AppCompatActivity {
 
 
     public void sonidoElefante(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -172,6 +174,7 @@ public class pianoInfantil extends AppCompatActivity {
 
 
     public void sonidoGrillo(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -202,6 +205,7 @@ public class pianoInfantil extends AppCompatActivity {
     }
 
     public void sonidoLeon(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -230,6 +234,7 @@ public class pianoInfantil extends AppCompatActivity {
     }
 
     public void sonidoMono(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -258,6 +263,7 @@ public class pianoInfantil extends AppCompatActivity {
     }
 
     public void sonidoRana(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
@@ -286,6 +292,7 @@ public class pianoInfantil extends AppCompatActivity {
     }
 
     public void sonidoSerpiente(View view){
+        detenerSonidos();
         if (currentToast != null){
             currentToast.cancel();
         }
