@@ -107,205 +107,143 @@ public class pianoInstrumentos extends AppCompatActivity {
     }
     public void sonidoBateria(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Bateria", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Bateria", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-        if (sonidoBateria!=null){
-            if (sonidoBateria.isPlaying()){
-                sonidoBateria.stop();
-                sonidoBateria=MediaPlayer.create(this, R.raw.bateria);
-            }else {
-                sonidoBateria.start();
-            }
-        }else{
-            detenerSonidos();
+        if (sonidoBateria == null) {
+            sonidoBateria= MediaPlayer.create(this, R.raw.bateria);
+        }
 
-            sonidoBateria=MediaPlayer.create(this, R.raw.bateria);
+        if (!sonidoBateria.isPlaying()) {
             sonidoBateria.start();
         }
     }
 
     public void sonidoClarinete(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Clarinete", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Clarinete", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
-        if (sonidoClarinete!=null){
-            if (sonidoClarinete.isPlaying()){
-                sonidoClarinete.stop();
-                sonidoClarinete=MediaPlayer.create(this, R.raw.clarinete);
-            }else {
-                sonidoClarinete.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoClarinete=MediaPlayer.create(this, R.raw.clarinete);
+        if (sonidoClarinete == null) {
+            sonidoClarinete = MediaPlayer.create(this, R.raw.clarinete);
+        }
+
+        if (!sonidoClarinete.isPlaying()) {
             sonidoClarinete.start();
         }
+
+
     }
 
     public void sonidoFlauta(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Flauta", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Flauta", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
-        if (sonidoFlauta!=null){
-            if (sonidoFlauta.isPlaying()){
-                sonidoFlauta.stop();
-                sonidoFlauta=MediaPlayer.create(this, R.raw.flauta);
-            }else {
-                sonidoFlauta.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoFlauta=MediaPlayer.create(this, R.raw.flauta);
+        if (sonidoFlauta == null) {
+            sonidoFlauta = MediaPlayer.create(this, R.raw.flauta);
+        }
+
+        if (!sonidoFlauta.isPlaying()) {
             sonidoFlauta.start();
         }
     }
 
-    public void sonidoGuitarra(View view){
+    public void sonidoGuitarra(View view) {
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Guitarra", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Guitarra", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
-        if (sonidoGuitarra!=null){
-            if (sonidoGuitarra.isPlaying()){
-                sonidoGuitarra.stop();
-                sonidoGuitarra=MediaPlayer.create(this, R.raw.guitarra);
-            }else {
-                sonidoGuitarra.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoGuitarra.create(this, R.raw.guitarra);
+        if (sonidoGuitarra == null) {
+            sonidoGuitarra = MediaPlayer.create(this, R.raw.guitarra);
+        }
+
+        if (!sonidoGuitarra.isPlaying()) {
             sonidoGuitarra.start();
         }
     }
 
+
     public void sonidoSaxofon(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Saxofon", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Saxofon", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
-        if (sonidoSaxofon!=null){
-            if (sonidoSaxofon.isPlaying()){
-                sonidoSaxofon.stop();
-                sonidoSaxofon=MediaPlayer.create(this, R.raw.saxofon);
-            }else {
-                sonidoSaxofon.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoSaxofon=MediaPlayer.create(this, R.raw.saxofon);
+        if (sonidoSaxofon == null) {
+            sonidoSaxofon = MediaPlayer.create(this, R.raw.saxofon);
+        }
+
+        if (!sonidoSaxofon.isPlaying()) {
             sonidoSaxofon.start();
         }
     }
 
     public void sonidoTrompeta(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Trompeta", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Trompeta", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-        if (sonidoTrompeta!=null){
-            if (sonidoTrompeta.isPlaying()){
-                sonidoTrompeta.stop();
-                sonidoTrompeta=MediaPlayer.create(this, R.raw.trompeta);
-            }else {
-                sonidoTrompeta.start();
-            }
-        }else{
-            detenerSonidos();
+        if (sonidoTrompeta == null) {
+            sonidoTrompeta = MediaPlayer.create(this, R.raw.trompeta);
+        }
 
-            sonidoTrompeta=MediaPlayer.create(this, R.raw.trompeta);
+        if (!sonidoTrompeta.isPlaying()) {
             sonidoTrompeta.start();
         }
     }
 
     public void sonidoViolin(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "sonido Violin", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido Violin", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 700);
-        if (sonidoViolin!=null){
-            if (sonidoViolin.isPlaying()){
-                sonidoViolin.stop();
-                sonidoViolin=MediaPlayer.create(this, R.raw.violin);
-            }else {
-                sonidoViolin.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoViolin=MediaPlayer.create(this, R.raw.violin);
+        if (sonidoViolin == null) {
+            sonidoViolin= MediaPlayer.create(this, R.raw.violin);
+        }
+
+        if (!sonidoViolin.isPlaying()) {
             sonidoViolin.start();
         }
     }

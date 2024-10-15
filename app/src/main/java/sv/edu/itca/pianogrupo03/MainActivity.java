@@ -111,30 +111,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void sonidoDo(View view){
         detenerSonidos();
-         if (currentToast != null){
-             currentToast.cancel();
-         }
-         currentToast=Toast.makeText(this, "Ha presionado DO", Toast.LENGTH_SHORT);
-         currentToast.show();
 
-         new Handler().postDelayed(new Runnable() {
-             @Override
-             public void run() {
-                 currentToast.cancel();
-             }
-         }, 500);
+        if (currentToast != null) {
+            currentToast.cancel();
+        }
+        currentToast = Toast.makeText(this, "Sonido DO", Toast.LENGTH_SHORT);
+        currentToast.show();
 
-        if (sonidoDo!=null){
-            if (sonidoDo.isPlaying()){
-                sonidoDo.stop();
-                sonidoDo=MediaPlayer.create(this, R.raw.don);
-            }else {
-                sonidoDo.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoDo=MediaPlayer.create(this, R.raw.don);
+        if (sonidoDo == null) {
+            sonidoDo = MediaPlayer.create(this, R.raw.don);
+        }
+
+        if (!sonidoDo.isPlaying()) {
             sonidoDo.start();
         }
     }
@@ -142,150 +132,103 @@ public class MainActivity extends AppCompatActivity {
     public void sonidoRe(View view){
         detenerSonidos();
 
-        if (currentToast != null){
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "Ha presionado RE", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido RE", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 500);
-        if (sonidoRe!=null){
-            if (sonidoRe.isPlaying()){
-                sonidoRe.stop();
-                sonidoRe=MediaPlayer.create(this, R.raw.re);
-            }else {
-                sonidoRe.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoRe=MediaPlayer.create(this, R.raw.re);
+        if (sonidoRe == null) {
+            sonidoRe = MediaPlayer.create(this, R.raw.re);
+        }
+
+        if (!sonidoRe.isPlaying()) {
             sonidoRe.start();
         }
     }
 
     public void sonidoMi(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "Ha presionado MI", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido MI", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 500);
-        if (sonidoMi!=null){
-            if (sonidoMi.isPlaying()){
-                sonidoMi.stop();
-                sonidoMi=MediaPlayer.create(this, R.raw.mi);
-            }else {
-                sonidoMi.start();
-            }
-        }else{
-            detenerSonidos();
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-            sonidoMi=MediaPlayer.create(this, R.raw.mi);
+        if (sonidoMi == null) {
+            sonidoMi = MediaPlayer.create(this, R.raw.mi);
+        }
+
+        if (!sonidoMi.isPlaying()) {
             sonidoMi.start();
         }
     }
 
     public void sonidoFa(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "Ha presionado FA", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido FA", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 500);
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-        if (sonidoFa!=null){
-            if (sonidoFa.isPlaying()){
-                sonidoFa.stop();
-                sonidoFa=MediaPlayer.create(this, R.raw.fa);
-            }else {
-                sonidoFa.start();
-            }
-        }else{
-            detenerSonidos();
+        if (sonidoFa == null) {
+            sonidoFa = MediaPlayer.create(this, R.raw.fa);
+        }
 
-            sonidoFa=MediaPlayer.create(this, R.raw.fa);
+        if (!sonidoFa.isPlaying()) {
             sonidoFa.start();
         }
     }
 
     public void sonidoSol(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "Ha presionado SOL", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido SOL", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 500);
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-        if (sonidoSol!=null){
-            if (sonidoSol.isPlaying()){
-                sonidoSol.stop();
-                sonidoSol=MediaPlayer.create(this, R.raw.sol);
-            }else {
-                sonidoSol.start();
-            }
-        }else{
-            detenerSonidos();
+        if (sonidoSol == null) {
+            sonidoSol = MediaPlayer.create(this, R.raw.sol);
+        }
 
-            sonidoSol=MediaPlayer.create(this, R.raw.sol);
+        if (!sonidoSol.isPlaying()) {
             sonidoSol.start();
         }
+
     }
 
     public void sonidoLa(View view){
         detenerSonidos();
-        if (currentToast != null){
+
+        if (currentToast != null) {
             currentToast.cancel();
         }
-        currentToast=Toast.makeText(this, "Ha presionado LA", Toast.LENGTH_SHORT);
+        currentToast = Toast.makeText(this, "Sonido LA", Toast.LENGTH_SHORT);
         currentToast.show();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                currentToast.cancel();
-            }
-        }, 500);
+        new Handler().postDelayed(() -> currentToast.cancel(), 700);
 
-        if (sonidoLa!=null){
-            if (sonidoLa.isPlaying()){
-                sonidoLa.stop();
-                sonidoLa=MediaPlayer.create(this, R.raw.la);
-            }else {
-                sonidoLa.start();
-            }
-        }else{
-            detenerSonidos();
+        if (sonidoLa == null) {
+            sonidoLa = MediaPlayer.create(this, R.raw.la);
+        }
 
-            sonidoLa=MediaPlayer.create(this, R.raw.la);
+        if (!sonidoLa.isPlaying()) {
             sonidoLa.start();
         }
+
     }
 
     public void sonidoSi(View view){
